@@ -1,0 +1,29 @@
+
+We are doing all these changes in document management service. Th very first thing required is create template , create forms for that we are doing these changes.
+
+1. In document type - enable the forms in drop down 
+
+2. There are two screens add screen,edit screen .(Underpayments)
+  For Template -
+  So in edit screen - In data entry for Template Appeals Demoassist some of the descrepency 
+  information will come (metadat for descrepency) Project code ,reason code, MPG ,Patient type, path issue.
+
+  For Form -
+  Unit no , Iplan , MPG ,Project code ,reason code, path issue need to add.
+  Also save this data in couchbase.
+
+The other changes are now in patient account service 
+
+1.Currently there is only one option medical record , we need to add a drop down with medical record, OP report , itemized bill charges and UB04
+
+2.Need to add one search endpoint to call Account Payer service(Concuity call) to get the details either it is underpayment , overpayment or denial.
+
+
+
+
+
+
+
+
+
+
