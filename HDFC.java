@@ -6,6 +6,8 @@ public class HDFC extends bank{
 	public void loan()
 	{
 		System.out.println("HDFC----loan method");
+ 
+		System.out.println("HDFC new method");
 	}
 	
 }
